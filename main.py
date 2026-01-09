@@ -56,8 +56,10 @@ def capture_region(rect):
         return img
 
 def ocr_image(img):
-    """Run OCR on image using Japanese language."""
+    """Run OCR on image using Japanese language and clean up spaces."""
     text = pytesseract.image_to_string(img, lang="jpn")
+    # Remove all whitespace (spaces, tabs, newlines)
+    text = "".join(text.split())
     return text.strip()
 
 def run_capture_ocr():

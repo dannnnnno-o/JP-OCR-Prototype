@@ -1,1 +1,16 @@
-requirements.txt
+Run the script.
+
+Press Ctrl+Alt+Shift+F12.
+
+A transparent overlay appears.
+
+Drag a rectangle over the area you want.
+
+Release the mouse → region captured → OCR runs → text copied to clipboard.
+
+🔮 Next Enhancements
+Add ESC key to cancel snip.
+
+Add notification popup when text is copied.
+
+Allow multiple languages (e.g., Japanese + English).
